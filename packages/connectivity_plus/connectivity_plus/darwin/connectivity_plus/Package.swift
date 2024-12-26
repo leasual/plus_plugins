@@ -18,7 +18,7 @@ let package = Package(
             name: "connectivity_plus",
             dependencies: [],
             resources: [
-                .process("PrivacyInfo.xcprivacy"),
+                .process("Resources"),
             ]
         )
     ]
