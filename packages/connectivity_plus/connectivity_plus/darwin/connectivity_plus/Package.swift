@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
     name: "connectivity_plus",
     platforms: [
-        .iOS(.v12),
-        .macOS(.v10_14)
+        .iOS("12.0"),
+        .macOS("10.14")
     ],
     products: [
         .library(
@@ -22,9 +22,9 @@ let package = Package(
     targets: [
         .target(
             name: "connectivity_plus",
-            path: "packages/connectivity_plus/connectivity_plus/ios/connectivity_plus/Sources/connectivity_plus",
+            dependencies: [],
             resources: [
-                .process("Resources/PrivacyInfo.xcprivacy")
+                .process("Resources"),
             ]
         )
     ]
