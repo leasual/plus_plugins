@@ -9,7 +9,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "connectivity_plus",
+            name: "connectivity-plus",
             targets: ["connectivity_plus"]
         ),
     ],
